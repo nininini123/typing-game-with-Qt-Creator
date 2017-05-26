@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>images/0.gif</file>
+        <file>images/1.gif</file>
+        <file>images/2.gif</file>
+        <file>images/3.gif</file>
+        <file>images/4.gif</file>
+        <file>images/5.gif</file>
+        <file>images/6.gif</file>
+        <file>images/7.gif</file>
+        <file>images/8.gif</file>
+        <file>images/9.gif</file>
+        <file>images/a.gif</file>
+        <file>images/b.gif</file>
+        <file>images/c.gif</file>
+        <file>images/d.gif</file>
+        <file>images/e.gif</file>
+        <file>images/f.gif</file>
+        <file>images/g.gif</file>
+        <file>images/h.gif</file>
+        <file>images/i.gif</file>
+        <file>images/j.gif</file>
+        <file>images/k.gif</file>
+        <file>images/l.gif</file>
+        <file>images/m.gif</file>
+        <file>images/n.gif</file>
+        <file>images/o.gif</file>
+        <file>images/p.gif</file>
+        <file>images/q.gif</file>
+        <file>images/r.gif</file>
+        <file>images/s.gif</file>
+        <file>images/t.gif</file>
+        <file>images/u.gif</file>
+        <file>images/v.gif</file>
+        <file>images/w.gif</file>
+        <file>images/x.gif</file>
+        <file>images/y.gif</file>
+        <file>images/z.gif</file>
+        <file>images/0.jpg</file>
+        <file>images/gameover.png</file>
+    </qresource>
+</RCC>

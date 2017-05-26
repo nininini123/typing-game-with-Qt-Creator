@@ -1,0 +1,55 @@
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+#include <QTimer>
+#include <QMainWindow>
+#include <QPixmap>
+#include <QRect>
+//#include <QPaintEvent>
+#include <QtGui>
+#include "randChar.h"
+#include "letterpic.h"
+#include "QPainter"
+
+#define INTERVAL 300
+
+namespace Ui {
+class MainWindow;
+}
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    explicit MainWindow(QWidget *parent = 0);
+    ~MainWindow();
+
+private:
+    Ui::MainWindow *ui;
+    //
+    // QPixmap *Img[3];
+    // QRect *imgRect1,*imgRect2,*imgRect3;
+    //QString *imgString1, *imgString2,*imgString3;
+    // QChar imgNum[3];
+    // int speed;
+    // //width and height of letter
+    // int width=70, height=70;
+    letterPic* letterpic[3];
+    QTimer * gameTimer;
+public:
+    // int setSpeed(int a);
+    // int setPicWidth(int a);
+    // int setPicHeight(int a);
+protected:
+    void paintEvent(QPaintEvent *event);
+    void mouseMoveEvent(QMouseEvent *event);
+    void keyPressEvent(QKeyEvent *event);
+    bool isOver, isStopped;
+private slots:
+    void run();
+    void on_actionexit_triggered();
+    void initGame();
+
+};
+
+#endif // MAINWINDOW_H
