@@ -1,11 +1,5 @@
 #include "letterpic.h"
 #include "randChar.h"
-// #define SPEED 10;
-// #define WIDTH 70;
-// #define HEIGHT 70;
-// #define X 0;
-// #define Y 80;
-// #define ID '0';
 
 letterPic::letterPic(QChar id,int x,int y,int width,int height,int speed)
 //letterPic(QChar id=ID,int x=X,int y=Y,int width=WIDTH,int height=HEIGHT,int speed=SPEED)
@@ -82,11 +76,6 @@ QChar letterPic::getId()
     return speed;
 }
 
-// void letterPic::destroy()
-// {
-//     delete rect;
-//     delete pixMap;
-// }
 letterPic::~letterPic()
 {
     delete rect;

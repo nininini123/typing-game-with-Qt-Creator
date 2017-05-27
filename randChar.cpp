@@ -1,5 +1,7 @@
 #include "randChar.h"
 //////////////////////////////////////////////
+///randChar
+///随机返回一个字符 ‘0’~‘9’，‘a'~'z'
 QChar randChar()
 {
 	//srand(time(0));

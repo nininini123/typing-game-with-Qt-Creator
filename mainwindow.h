@@ -26,14 +26,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    //
-    // QPixmap *Img[3];
-    // QRect *imgRect1,*imgRect2,*imgRect3;
-    //QString *imgString1, *imgString2,*imgString3;
-    // QChar imgNum[3];
-    // int speed;
-    // //width and height of letter
-    // int width=70, height=70;
+   
     letterPic* letterpic[3];
     QTimer * gameTimer;
 public:
@@ -50,6 +43,7 @@ private slots:
     void on_actionexit_triggered();
     void initGame();
 
+    void on_actionhelp_triggered();
 };
 
 #endif // MAINWINDOW_H
